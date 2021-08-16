@@ -1,0 +1,120 @@
+body{
+    background-color: lightgrey;
+    width:670px;
+    margin:auto;
+}
+
+.vissza{
+    background-color:white;
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+}
+
+.elore{
+    background-color:white;
+    transform: rotate(0.5turn);
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+}
+
+.nagykep{
+    width:640px;
+    height:480px;
+    display:flex;
+    position: relative;
+}
+
+.szoveg1{
+    width:640px;
+    margin:auto;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background-color:hsla(86, 13%, 8%, 0.6);
+}
+
+
+#kepcim{
+    color:white;
+    padding-left:10px;
+}
+
+#kepleiras{
+    color:white;
+    padding-left:10px;
+}
+
+.nagydoboz{
+    background-color:white;
+    display:flex;
+    height:480px;
+    justify-content:center;
+    width:670px;
+}
+/*
+#indexkep{
+    border:10px solid #ddd ;
+    padding:3px; 
+    margin:5px;
+    display:flex;
+}
+
+#kicsidoboz{
+    display:flex;
+}
+
+.box {
+    margin: 5px;
+    border:4px solid white;
+}*/
+.kicsidoboz{
+    width:1000px;
+    padding:0;
+    margin:auto;
+    display:inline;
+    position:relative;
+    
+}
+.kicsidoboz:after {
+    content: "";
+    display: inline;
+    clear: both;
+  }
+/* 8 columns side by side */
+.column {
+   float:left; 
+   width:11%;
+   padding:5px;
+  }
+  
+  
+  .demo {
+    opacity: 0.6;
+    border:4px solid white;
+    position: relative;
+  }
+  
+  .active,
+  .demo:hover{
+    opacity: 1;
+  }
+
+  .demo:visited{
+      opacity:0.6;
+  }
+
+  .title {
+    display: none;
+    position: relative;
+    background: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    bottom: -10px;
+  }
+  
+  .column:hover .title {
+    display: block;
+  }

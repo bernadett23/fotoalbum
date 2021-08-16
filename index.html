@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nagydoboz">
+        <div class="vissza"><img src="images/arrow.svg" alt="vissza" onclick="leptetes(-1)" ></div>
+        
+        <div class="nagykep"><img id="photo">
+            <div class="szoveg1">
+                <h1 id="kepcim" ></h1>
+                <p id="kepleiras" ></p>
+            </div>
+        </div>
+        <div class="elore"><img src="images/arrow.svg" alt="előre" onclick="leptetes(1)"></div>
+    </div>
+    
+       <!-- <div class="szoveg">
+            <h1 id="kepcim"></h1>
+            <p id="kepleiras"></p>
+        </div>-->
+    
+    <div class="kicsidoboz">
+      <div class="column">
+        <img class="demo cursor" src="images/kep1.jpg" style="width:90%" onclick="loadPhoto(0)" alt="kep1">
+        <div class="title">Something hidden1</div>
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/kep2.jpg" style="width:90%" onclick="loadPhoto(1)" alt="kep2">
+        <div class="title">Something hidden2</div>
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/kep3.jpg" style="width:90%" onclick="loadPhoto(2)" alt="kep3">
+        <div class="title">Something hidden3</div>
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/kep4.jpg" style="width:90%" onclick="loadPhoto(3)" alt="kep4">
+        <div class="title">Something hidden4</div>
+      </div>
+      <div class="column">  
+        <img class="demo cursor" src="images/kep5.jpg" style="width:90%" onclick="loadPhoto(4)" alt="kep5">
+        <div class="title">Something hidden5</div>
+      </div>    
+      <div class="column">
+        <img class="demo cursor" src="images/kep6.jpg" style="width:90%" onclick="loadPhoto(5)" alt="kep6">
+        <div class="title">Something hidden6</div>
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/kep7.jpg" style="width:90%" onclick="loadPhoto(6)" alt="kep7">
+        <div class="title">Something hidden7</div>
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/kep8.jpg" style="width:90%" onclick="loadPhoto(7)" alt="kep8">
+        <div class="title">Something hidden8</div>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
